@@ -23,8 +23,7 @@ public class SampleActivity extends ActionBarActivity {
 
     private ListView mDrawerList;
     ViewPager pager;
-    private String titles[] = new String[]{"Sample Tab 1", "Sample Tab 2", "Sample Tab 3", "Sample Tab 4"
-            , "Sample Tab 5", "Sample Tab 6", "Sample Tab 7", "Sample Tab 8"};
+    private String titles[] = new String[]{"SCAN", "MAP", "MANAGE"};
     private Toolbar toolbar;
 
     SlidingTabLayout slidingTabLayout;
@@ -66,9 +65,9 @@ public class SampleActivity extends ActionBarActivity {
                                     int position, long id) {
                 switch (position) {
                     case 0:
-                        mDrawerList.setBackgroundColor(getResources().getColor(R.color.material_deep_teal_500));
-                        toolbar.setBackgroundColor(getResources().getColor(R.color.material_deep_teal_500));
-                        slidingTabLayout.setBackgroundColor(getResources().getColor(R.color.material_deep_teal_500));
+                        mDrawerList.setBackgroundColor(getResources().getColor(R.color.red));
+                        toolbar.setBackgroundColor(getResources().getColor(R.color.red));
+                        slidingTabLayout.setBackgroundColor(getResources().getColor(R.color.red));
                         mDrawerLayout.closeDrawer(Gravity.START);
                         break;
                     case 1:
@@ -79,16 +78,16 @@ public class SampleActivity extends ActionBarActivity {
 
                         break;
                     case 2:
-                        mDrawerList.setBackgroundColor(getResources().getColor(R.color.blue));
-                        toolbar.setBackgroundColor(getResources().getColor(R.color.blue));
-                        slidingTabLayout.setBackgroundColor(getResources().getColor(R.color.blue));
+                        mDrawerList.setBackgroundColor(getResources().getColor(R.color.red));
+                        toolbar.setBackgroundColor(getResources().getColor(R.color.red));
+                        slidingTabLayout.setBackgroundColor(getResources().getColor(R.color.red));
                         mDrawerLayout.closeDrawer(Gravity.START);
 
                         break;
                     case 3:
-                        mDrawerList.setBackgroundColor(getResources().getColor(R.color.material_blue_grey_800));
-                        toolbar.setBackgroundColor(getResources().getColor(R.color.material_blue_grey_800));
-                        slidingTabLayout.setBackgroundColor(getResources().getColor(R.color.material_blue_grey_800));
+                        mDrawerList.setBackgroundColor(getResources().getColor(R.color.red));
+                        toolbar.setBackgroundColor(getResources().getColor(R.color.red));
+                        slidingTabLayout.setBackgroundColor(getResources().getColor(R.color.red));
                         mDrawerLayout.closeDrawer(Gravity.START);
 
                         break;
